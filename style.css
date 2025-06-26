@@ -1,0 +1,83 @@
+body {
+  background-color: #2B1A17;
+  color: #FFFFFF;
+  font-family: 'Qunky', 'Caang', monospace;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  display: flex; justify-content: space-between; align-items: center;
+  position: fixed; top: 0px; left: 0px;
+  border: 1px solid white;
+  padding: 0 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 8px;        /* например, 8px между логотипом и текстом */
+}
+
+
+.balance{
+  margin-right: 100px;
+}
+
+.container{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  border-bottom: 1px solid white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  gap: 100px; 
+  align-items: center;
+  margin-top: 100px;
+}
+
+.numbers {
+  font-size: 150px;
+}
+
+#spin {
+  font-size: 100px;
+  
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid white;
+  justify-items: center;
+}
+
+.card {
+  display: block;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.ava {
+  height: 150px;
+  width: 150px;
+}
+
+
+footer p {
+  width: 100%;
+  text-align: center;
+}
